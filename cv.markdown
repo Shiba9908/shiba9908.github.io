@@ -16,6 +16,11 @@ title: Curriculum Vitae
 
 ---
 
+<div class="cv-section">
+  <p><a href="/assets/files/cv_shiba_copy.pdf" target="_blank" rel="noopener">Download / View my CV (PDF)</a></p>
+</div>
+
+
 # 🎯 **Research Interests**
 
 <div class="cv-section">
