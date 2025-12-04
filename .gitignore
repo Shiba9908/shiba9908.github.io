@@ -3,3 +3,12 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# macOS
+.DS_Store
+
+# local backups and temp files
+*.bak
+
+# ignore personal-website backup folder (if present)
+personal-website.bak*/
