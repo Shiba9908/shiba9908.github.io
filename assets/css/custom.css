@@ -778,6 +778,33 @@ body {
   box-shadow: var(--shadow-lg);
 }
 
+/* Small fixed avatar on the left of the viewport */
+.site-avatar {
+  position: fixed;
+  left: 1rem;
+  top: 1rem;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--primary-color);
+  box-shadow: var(--shadow-lg);
+  z-index: 1000;
+}
+
+/* Add left padding to main content so avatar doesn't overlap on wide screens */
+@media (min-width: 800px) {
+  .main-content .wrapper {
+    padding-left: 5.5rem;
+  }
+}
+
+/* Hide fixed avatar on small screens */
+@media (max-width: 768px) {
+  .site-avatar { display: none; }
+  .main-content .wrapper { padding-left: 1rem; }
+}
+
 .hero-text h1 {
   font-size: 2.2rem;
   color: var(--primary-color);

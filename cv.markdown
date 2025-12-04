@@ -15,16 +15,16 @@ permalink: /cv/
 - **Interests:** Computational materials science, materials informatics, machine learning in materials
 ## Downloadable PDFs
 
-- <a href="/assets/files/shiba_2025_cv.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
-- <a href="/assets/files/gate_2025_score_card.pdf" target="_blank" rel="noopener">Download GATE 2025 Score Card (PDF)</a>
+- <a href="/assets/files/cv_shiba_copy.pdf" target="_blank" rel="noopener" class="download-btn">⬇ Download CV (PDF)</a>
+- <a href="/assets/files/gate_2025_score_card.pdf" target="_blank" rel="noopener" class="download-btn">⬇ Download GATE 2025 Score Card (PDF)</a>
 
 ## Personal Information
 - **Name:** Shibasankar Dash
 - **Email:** shibsankar108@gmail.com
 - **Phone:** +91-7978006274
 - **Location:** Bangalore, India
-- **LinkedIn:** [linkedin.com/in/shibasankardash](https://linkedin.com/in/shibasankardash)
-- **GitHub:** [github.com/shibasankardash](https://github.com/shibasankardash)
+- **LinkedIn:** [Shiba Sankar Dash](https://www.linkedin.com/in/shiba-sankar-dash-0b9bb218a/)
+- **GitHub:** [Shiba9908](https://github.com/Shiba9908)
 - **ResearchGate:** ResearchGate profile (on request)
 
 ## Education
