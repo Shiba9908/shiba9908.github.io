@@ -1,191 +1,163 @@
 ---
 layout: page
-title: Curriculum Vitae
+title: CV & Education
+permalink: /cv/
 ---
 
-<div class="cv-section">
-  <h2>About Me</h2>
-  <p>
-    I am <strong>Shibasankar Dash</strong>, an M.Tech (Research) candidate in the 
-    Department of Materials Engineering at the Indian Institute of Science (IISc), Bangalore.
-    My work focuses on hydrogen–dislocation interactions in nickel using <strong>Density
-    Functional Theory (DFT)</strong> and <strong>machine learning</strong>. I also work on
-    multiscale modelling, phase-field methods, and computational metallurgy.
-  </p>
-</div>
+# Curriculum Vitae
 
----
+## Summary at a Glance
 
-<div class="cv-section">
-  <p><a href="/assets/files/cv_shiba_copy.pdf" target="_blank" rel="noopener">Download / View my CV (PDF)</a></p>
-</div>
+- **Current Program:** M.Tech in Materials Engineering, IISc Bangalore (2023–2025)  
+- **Overall CGPA:** 8.2/10.0 (M.Tech) & 8.18/10.0 (B.Tech, NIT Rourkela)  
+- **Research Focus:** Hydrogen–dislocation interactions, hydrogen embrittlement, DFT-based simulations  
+- **Key Awards:** Best Experiment Award – IISc Open Day 2024; International Presentation – DGM Conference, Germany (Feb 2025)  
+- **Interests:** Computational materials science, materials informatics, machine learning in materials
+## Downloadable PDFs
 
+- <a href="/assets/files/shiba_2025_cv.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
+- <a href="/assets/files/gate_2025_score_card.pdf" target="_blank" rel="noopener">Download GATE 2025 Score Card (PDF)</a>
 
-# 🎯 **Research Interests**
+## Personal Information
+- **Name:** Shibasankar Dash
+- **Email:** shibsankar108@gmail.com
+- **Phone:** +91-7978006274
+- **Location:** Bangalore, India
+- **LinkedIn:** [linkedin.com/in/shibasankardash](https://linkedin.com/in/shibasankardash)
+- **GitHub:** [github.com/shibasankardash](https://github.com/shibasankardash)
+- **ResearchGate:** ResearchGate profile (on request)
 
-<div class="cv-section">
-  <ul>
-    <li><strong>Hydrogen embrittlement</strong> — segregation, trapping, and dislocation–solute interactions</li>
-    <li><strong>DFT & Atomistic Simulations</strong> — defect energetics, stacking faults, elastic fields</li>
-    <li><strong>Machine Learning for Materials</strong> — regression models for energetics, structure–property mapping</li>
-    <li><strong>Mesoscale Modelling</strong> — Cahn–Hilliard phase-field modelling</li>
-    <li><strong>Multiscale Linking</strong> — integrating atomistic energetics into continuum descriptions</li>
-  </ul>
-</div>
+## Education
 
----
+### Master of Technology (M.Tech) in Materials Engineering
+**Institution:** Indian Institute of Science (IISc), Bangalore  
+**Duration:** August 2023 - July 2025  
+**CGPA:** 8.2/10.0  
+**Research Supervisor:** Prof. Karthikeyan Subramanian  
+**Mode of Entry:** GATE  
+**Scholarship:** MOE Fellowship (₹12,400/month)
 
-# 🎓 **Education**
+#### Master's Thesis Project
+**Title:** "Interaction of Hydrogen with Dislocation in Nickel using First Principles"  
+**Description:** Advanced computational materials science research using Density Functional Theory (DFT) to study hydrogen-dislocation interactions in nickel alloys. This research contributes to understanding hydrogen embrittlement mechanisms in structural materials.
 
-<div class="cv-section">
-  <h3>M.Tech (Research), Materials Engineering</h3>
-  <p><strong>Indian Institute of Science (IISc), Bangalore</strong><br>
-  Aug 2023 – April 2026 (expected) &nbsp; | &nbsp; CGPA: <strong>8.2/10</strong></p>
-  <p>Completed <strong>11 graduate-level courses</strong> (vs 4 required).</p>
+#### Key Academic Statistics
+- **Completed RTP Credits (M.Tech, IISc):** 27  
+- **Overall CGPA (M.Tech):** 8.2/10.0  
+- **Overall CGPA (B.Tech):** 8.18/10.0  
+- **Minor CGPA (Metallurgical and Materials Engineering):** 8.29/10.0  
 
-  <details class="collapsible">
-    <summary class="collapsible-header">
-      <h3>Relevant Coursework <span class="collapsible-arrow">▶</span></h3>
-    </summary>
-    <div class="collapsible-content">
-      <ul>
-        <li>Defects in Materials</li>
-        <li>Mechanical Behavior of Materials</li>
-        <li>Electron Microscopy</li>
-        <li>Computational Materials Engineering</li>
-        <li>Phase Transformations</li>
-        <li>Finite Element Methods</li>
-        <li>Spinodal Decomposition & Cahn–Hilliard Equation</li>
-        <li>Machine Learning for Materials</li>
-      </ul>
-    </div>
-  </details>
-</div>
-
-<div class="cv-section">
-  <h3>B.Tech, Ceramic Engineering (Minor in Metallurgy)</h3>
-  <p><strong>NIT Rourkela</strong><br>
-  Aug 2018 – May 2022 &nbsp; | &nbsp; CGPA: <strong>8.18/10</strong> (Minor GPA: 8.29)</p>
-  <p>Only student in cohort to complete a minor in Metallurgy.</p>
-
-  <details class="collapsible">
-    <summary class="collapsible-header">
-      <h3>Relevant Coursework <span class="collapsible-arrow">▶</span></h3>
-    </summary>
-    <div class="collapsible-content">
-      <ul>
-        <li>Phase Equilibria</li>
-        <li>Thermodynamics of Materials</li>
-        <li>Mechanical Metallurgy</li>
-        <li>X-ray Diffraction Techniques</li>
-        <li>Transport Phenomena</li>
-        <li>Ceramic Processing</li>
-        <li>Refractories</li>
-      </ul>
-    </div>
-  </details>
-</div>
+#### Key Achievements
+- **Best Experiment Award** - IISc Open Day 2024
+- **International Conference Presentation** - DGM Conference, Germany (February 2025)
+- **Research Excellence** - Top-tier materials science research
+- **MOE Fellowship** - Merit-based scholarship recipient
 
 ---
 
-# 🔬 **Research Experience**
+### Bachelor of Technology (B.Tech) in Ceramic Engineering
+**Institution:** National Institute of Technology (NIT), Rourkela  
+**Duration:** 2018 - 2022  
+**CGPA:** 8.18/10.0  
+**Major Branch:** Ceramic Engineering  
+**Minor Branch:** Metallurgical and Materials Engineering  
+**Roll Number:** 118CR0675  
+**Mode of Entry:** JEE Advanced
 
-<div class="cv-section">
+#### Bachelor's Project
+**Title:** "Refractory Lining of the Blast Furnace"  
+**Description:** Comprehensive study and design of refractory materials for blast furnace applications, focusing on thermal stability, chemical resistance, and mechanical properties under extreme conditions.
 
-### **M.Tech Thesis — Hydrogen–Dislocation Interactions in Nickel (DFT + ML)**  
-**Advisor:** Prof. S. Karthikeyan, IISc  
-**June 2024 – Present**
+#### B.Tech Academic Summary
 
-- Performed **200+ DFT calculations** (VASP) for hydrogen binding in dislocation strain fields  
-- Developed a **Random Forest model (R² ≈ 0.99)** to predict binding energies  
-- Discovered that **elastic anisotropy increases peak H-concentration by 40–50%**  
-- Identified **Suzuki-type segregation** in screw dislocations  
-- Presented an **oral talk** at **H2MSE 2025**, Bonn, Germany  
-- Manuscript in preparation
+- Strong performance across **core ceramics**, **materials characterization**, and **mechanical behaviour** courses  
+- Extensive laboratory work in **glass, refractories, microscopy, and mechanical metallurgy**  
+- Completed **short-term industrial/research experience** and a comprehensive viva as part of the curriculum
+- **Semester Credits:** 21 | **SGPA:** 8.90 | **CGPA:** 8.18
 
----
-
-### **Mini-Project — Phase-Field Modelling of Spinodal Decomposition**  
-*IISc, Jan 2024 – Apr 2024*  
-- Implemented Cahn–Hilliard model using MicroSim  
-- Studied coarsening kinetics and composition fluctuations
-
----
-
-### **B.Tech Final Project — Glass Toughening Mechanisms**  
-*NIT Rourkela*  
-- Investigated crack growth, corrosion, and toughening routes  
-- Built custom furnace setup for experiments  
-
-</div>
+#### Overall Academic Performance
+- **Major CGPA (Ceramic Engineering, B.Tech):** 8.18/10.0  
+- **Minor CGPA (Metallurgical and Materials Engineering):** 8.29/10.0  
+- **Total Credits Completed:** 164  
+- **Graduation Year:** 2022
 
 ---
 
-# 🛠️ **Skills**
+### Higher Secondary & Secondary Education
+Details available on official marksheets and can be shared on request.
 
-<div class="cv-section">
+## Technical Skills
 
-### **Atomistic & Electronic Structure**
-- VASP, Quantum Espresso  
-- Defect energetics, elastic fields, stacking faults  
+### Computational Methods
+- **Density Functional Theory (DFT)** - VASP, Quantum ESPRESSO
+- **Machine Learning** - Python, Scikit-learn, TensorFlow
+- **Deep Learning** - Neural Networks, CNN, RNN
+- **Data Analysis** - Python, MATLAB, Origin
 
-### **Molecular Dynamics**
-- LAMMPS (dislocations, crack-tip evolution)
+### Materials Engineering
+- **Characterization Techniques** - XRD, SEM, TEM, AFM
+- **Simulation Software** - Materials Studio, COMSOL
+- **Process Engineering** - Ceramic Processing, Heat Treatment
+- **Testing Methods** - Mechanical Testing, Thermal Analysis
 
-### **Mesoscale Methods**
-- MicroSim, phase-field methods, ANSYS
+### Programming Languages
+- **Proficient:** Python, MATLAB, C++
+- **Familiar:** R, Fortran, JavaScript
 
-### **Programming**
-- Python (NumPy, Pandas, scikit-learn), MATLAB, Bash
+### Software & Tools
+- **Computational:** VASP, Quantum ESPRESSO, Materials Studio
+- **Data Analysis:** Python, MATLAB, Origin, Excel
+- **Version Control:** Git, GitHub
+- **Documentation:** LaTeX, Microsoft Office
 
-### **Visualization**
-- VESTA, OVITO, Origin
+## Research Experience
 
-### **Characterization**
-- SEM, XRD  
+### International Conference Presentation
+**Event:** DGM Conference, Germany  
+**Date:** February 2025  
+**Duration:** 7 days  
+**Topic:** "Hydrogen-Dislocation Interactions in Nickel: A First Principles Study"  
+**Achievement:** Presented cutting-edge research findings to international materials science community
 
-</div>
+### Research Projects
+1. **M.Tech Thesis (2023-2025):** First principles study of hydrogen-dislocation interactions
+2. **B.Tech Project (2021-2022):** Refractory lining design for blast furnace applications
+3. **Open Day Project (2024):** Award-winning experimental demonstration
+
+## Academic Achievements
+
+### Competitive Examinations
+- **GATE Metallurgy** - Top 2% (Qualified for IISc admission)
+- **JEE Advanced** - Qualified for NIT Rourkela admission
+
+### Awards & Recognition
+- **Best Experiment Award** - IISc Open Day 2024
+- **Academic Excellence** - Consistent top performance
+- **Research Recognition** - International conference presentation
+
+## Coursework (Selected Highlights)
+
+- **Thermodynamics and Kinetics**, **Mechanical Behaviour of Materials**, **Structure and Properties of Materials**  
+- **Diffusion in Solids**, **Defects in Materials**, **Electron Microscopy in Materials Characterization**  
+- **Materials Informatics**, **Modeling and Simulation in Materials Engineering**  
+- **Physical Ceramics**, **Nanoceramics**, **Composite Materials**, **Tribology of Materials**  
+
+Full, course-by-course transcripts are available on official documents and can be shared on request.
+
+## Languages
+- **English:** Fluent
+- **Hindi:** Native
+- **Odia:** Native
+- **German:** Basic (from conference experience)
+
+## Interests
+- Computational Materials Science
+- Hydrogen Embrittlement Research
+- Machine Learning Applications in Materials
+- International Research Collaboration
+- Scientific Writing and Communication
+- Open Source Software Development
 
 ---
 
-# 🏭 **Industry Experience**
-
-<div class="cv-section">
-
-### **Graduate Engineer Trainee — ArcelorMittal Nippon Steel (2022–2023)**
-- Analyzed refractory wear and thermal spalling  
-- Monitored slab-casting defects and hydrogen ingress  
-- Proposed operating adjustments improving refractory life
-
-### **Intern — SAIL Rourkela (2021)**
-- Exposure to steelmaking operations and QC workflows  
-
-</div>
-
----
-
-# 🏅 **Awards & Achievements**
-
-<div class="cv-section">
-  <ul>
-    <li>🏆 Best Presentation Award — IISc Open Day 2025</li>
-    <li>🎯 GATE Metallurgy AIR 218 (Top ~2%)</li>
-    <li>🥈 Runner-up — IIM RSP Chapter Event 2022</li>
-    <li>🌍 Oral Presentation — H2MSE 2025, Bonn, Germany</li>
-  </ul>
-</div>
-
----
-
-# 📄 **References**
-
-<div class="cv-section">
-  <p><strong>Prof. S. Karthikeyan</strong><br>
-  Materials Engineering, IISc Bangalore<br>
-  Email: karthik@iisc.ac.in</p>
-
-  <p><strong>Prof. Praveen Kumar</strong><br>
-  Materials Engineering, IISc Bangalore<br>
-  Email: praveenk@iisc.ac.in</p>
-</div>
-
+*Last Updated: October 2024*

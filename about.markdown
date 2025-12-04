@@ -85,12 +85,39 @@ When I'm not immersed in computational simulations or experimental work, you can
 I'm always excited to connect with fellow researchers, potential collaborators, industry professionals, and anyone interested in materials science and engineering. Feel free to reach out!
 
 ### Contact Information
-- **Email:** [shibasankar@iisc.ac.in](mailto:shibasankar@iisc.ac.in)
+- **Email:** [shibsankar108@gmail.com](mailto:shibsankar108@gmail.com)
 - **Phone:** +91-7978006274
-- **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/shibasankardash)
+- **LinkedIn:** [linkedin.com/in/shibasankardash](https://linkedin.com/in/shibasankardash)
 - **GitHub:** [github.com/shibasankardash](https://github.com/shibasankardash)
-- **ResearchGate:** [Your ResearchGate Profile]
-- **ORCID:** [Your ORCID ID]
+- **ResearchGate:** ResearchGate profile (on request)
+- **ORCID:** ORCID ID (on request)
+
+### Send Me a Message
+
+<form class="contact-form" action="mailto:shibsankar108@gmail.com" method="post" enctype="text/plain">
+  <div class="contact-form-row">
+    <div class="contact-form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="Name" required>
+    </div>
+    <div class="contact-form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="Email" required>
+    </div>
+  </div>
+
+  <div class="contact-form-group">
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="Subject" required>
+  </div>
+
+  <div class="contact-form-group">
+    <label for="message">Message</label>
+    <textarea id="message" name="Message" rows="5" required></textarea>
+  </div>
+
+  <button type="submit" class="contact-submit-btn">Send Message</button>
+</form>
 
 ### Let's Connect!
 Whether you want to discuss research collaborations, share ideas, or explore opportunities, I'd love to hear from you. I'm particularly interested in:
