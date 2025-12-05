@@ -14,7 +14,7 @@ title: Home
       <strong>dislocation–hydrogen interactions</strong>,
       and <strong>DFT-based simulations</strong>.
     </p>
-    <a class="download-btn" href="/assets/files/shiba_2025_cv.pdf" download>⬇ Download CV</a>
+    <a class="download-btn" href="/assets/files/cv_shiba_copy.pdf" download>⬇ Download CV</a>
   </div>
 </div>
 

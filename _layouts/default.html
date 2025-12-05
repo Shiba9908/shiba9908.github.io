@@ -19,8 +19,10 @@
   {%- endif -%}
 </head>
 
-<body>
+<body{% if page.url == '/' %} class="home"{% endif %}>
+  {%- if page.url == '/' -%}
   <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile photo" class="site-avatar" />
+  {%- endif -%}
   <header class="site-header">
     <div class="wrapper">
       <h1 class="site-title">{{ site.title | escape }}</h1>

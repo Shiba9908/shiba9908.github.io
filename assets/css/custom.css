@@ -783,18 +783,19 @@ body {
   position: fixed;
   left: 1rem;
   top: 1rem;
-  width: 64px;
-  height: 64px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid var(--primary-color);
   box-shadow: var(--shadow-lg);
   z-index: 1000;
+  overflow: hidden;
 }
 
 /* Add left padding to main content so avatar doesn't overlap on wide screens */
 @media (min-width: 800px) {
-  .main-content .wrapper {
+  .home .main-content .wrapper {
     padding-left: 5.5rem;
   }
 }
@@ -804,6 +805,9 @@ body {
   .site-avatar { display: none; }
   .main-content .wrapper { padding-left: 1rem; }
 }
+
+/* Hide the large hero photo on the landing page (we'll use the small avatar there) */
+.home .hero-photo { display: none; }
 
 .hero-text h1 {
   font-size: 2.2rem;
