@@ -29,7 +29,7 @@ title: Home
   <div class="nav-card">
     <h3>🎓 Academic Records</h3>
     <p>Complete transcripts, course grades, and semester-wise performance.</p>
-    <a href="{{ '/academic/' | relative_url }}">View Records</a>
+    
   </div>
 
   <div class="nav-card">
