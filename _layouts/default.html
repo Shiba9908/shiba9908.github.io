@@ -21,7 +21,9 @@
 
 <body{% if page.url == '/' %} class="home"{% endif %}>
   {%- if page.url == '/' -%}
-  <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile photo" class="site-avatar" />
+  <a href="{{ '/assets/images/profile.jpg' | relative_url }}" target="_blank" rel="noopener">
+    <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile photo" class="site-avatar" />
+  </a>
   {%- endif -%}
   <header class="site-header">
     <div class="wrapper">
