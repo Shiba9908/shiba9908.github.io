@@ -13,7 +13,7 @@
   function init(){
     const saved = localStorage.getItem(KEY);
     const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const theme = saved || (prefersDark ? 'dark' : 'light');
+    const theme = saved || 'dark';
     applyTheme(theme);
     updateButtonText(theme);
   }

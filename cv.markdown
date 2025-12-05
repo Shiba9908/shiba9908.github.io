@@ -15,8 +15,7 @@ permalink: /cv/
 - **Interests:** Computational materials science, materials informatics, machine learning in materials
 ## Downloadable PDFs
 
-- <a href="/assets/files/cv_shiba_copy.pdf" target="_blank" rel="noopener" class="download-btn">⬇ Download CV (PDF)</a>
-- <a href="/assets/files/gate_2025_score_card.pdf" target="_blank" rel="noopener" class="download-btn">⬇ Download GATE 2025 Score Card (PDF)</a>
+- <a href="/assets/files/cv_shiba_copy.pdf" target="_blank" rel="noopener" class="download-btn">Download CV (PDF)</a>
 
 ## Personal Information
 - **Name:** Shibasankar Dash

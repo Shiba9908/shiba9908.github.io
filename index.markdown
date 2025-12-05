@@ -27,12 +27,6 @@ title: Home
   </div>
 
   <div class="nav-card">
-    <h3>Academic Records</h3>
-    <p>Complete transcripts, course grades, and semester-wise performance.</p>
-    
-  </div>
-
-  <div class="nav-card">
     <h3>Research Projects</h3>
     <p>DFT simulations, hydrogen–dislocation studies, and materials informatics projects.</p>
     <a href="{{ '/projects/' | relative_url }}">Explore Projects</a>
