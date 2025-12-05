@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio website built with Jekyll (Ruby-based static site generator). This website showcases CV, education details, projects, and professional information.
 
-## 🌟 Features
+## Features
 
 - **Responsive Design**: Mobile-first approach with modern CSS
 - **Clean Navigation**: Easy-to-use navigation between sections
@@ -12,7 +12,7 @@ A modern, responsive personal portfolio website built with Jekyll (Ruby-based st
 - **SEO Optimized**: Built-in SEO features with Jekyll SEO tag
 - **Fast Loading**: Static site generation for optimal performance
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 personal-website/
@@ -34,7 +34,7 @@ personal-website/
 └── README.md            # This file
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -68,7 +68,7 @@ personal-website/
 5. **View your site**
    Open your browser and go to `http://localhost:4000`
 
-## 🎨 Customization
+## Customization
 
 ### Personal Information
 
@@ -112,7 +112,7 @@ Key CSS variables you can customize:
 3. Add your content in Markdown
 4. Update navigation in `_layouts/default.html`
 
-## 📱 Responsive Design
+## Responsive Design
 
 The website is fully responsive and works on:
 - Desktop computers
@@ -120,7 +120,7 @@ The website is fully responsive and works on:
 - Mobile phones
 - Various screen sizes
 
-## 🚀 Deployment
+## Deployment
 
 ### GitHub Pages
 
@@ -145,7 +145,7 @@ Since Jekyll generates static files, you can host on any static hosting service:
 - AWS S3 + CloudFront
 - Any web server
 
-## 🛠️ Development
+## Development
 
 ### Local Development
 
@@ -173,7 +173,7 @@ Then run:
 bundle install
 ```
 
-## 📝 Content Management
+## Content Management
 
 ### Markdown Support
 
@@ -198,7 +198,7 @@ description: Page description for SEO
 ---
 ```
 
-## 🔧 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -213,7 +213,7 @@ description: Page description for SEO
 - [Jekyll GitHub](https://github.com/jekyll/jekyll)
 - [Jekyll Community](https://talk.jekyllrb.com/)
 
-## 📄 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
