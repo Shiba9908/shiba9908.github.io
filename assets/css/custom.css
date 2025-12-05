@@ -24,12 +24,14 @@
 /* Global Styles */
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-  line-height: 1.6;
+  line-height: 1.75;
   color: var(--text-color);
   background-color: var(--background-color);
   /* soft layered background */
   background-image: radial-gradient(circle at 10% 10%, rgba(59,130,246,0.02), transparent 10%), radial-gradient(circle at 90% 90%, rgba(30,64,175,0.02), transparent 10%), linear-gradient(180deg, #f8fbff 0%, var(--background-color) 100%);
   background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /* Header Styles */
@@ -42,17 +44,20 @@ body {
 }
 
 .site-title {
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 2.8rem;
+  font-weight: 800;
   margin: 0;
   text-align: center;
+  letter-spacing: -0.5px;
 }
 
 .site-description {
-  font-size: 1.1rem;
-  opacity: 0.9;
+  font-size: 1rem;
+  opacity: 0.95;
   text-align: center;
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.3px;
 }
 
 /* Navigation Styles */
@@ -80,25 +85,28 @@ body {
 
 .site-nav a {
   display: block;
-  padding: 1rem 1.5rem;
+  padding: 0.85rem 1.4rem;
   color: var(--text-color);
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   transition: var(--transition);
   border-radius: var(--border-radius);
-  margin: 0.25rem;
+  margin: 0.3rem;
+  position: relative;
 }
 
 .site-nav a.active {
-  background-color: var(--background-light);
+  background: linear-gradient(135deg, rgba(37,99,235,0.08), rgba(99,102,241,0.04));
   color: var(--primary-color);
-  box-shadow: var(--shadow);
+  box-shadow: 0 4px 12px rgba(37,99,235,0.1);
+  font-weight: 700;
 }
 
 .site-nav a:hover {
-  background-color: var(--background-light);
+  background: linear-gradient(135deg, rgba(37,99,235,0.12), rgba(99,102,241,0.06));
   color: var(--primary-color);
   transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(37,99,235,0.12);
 }
 
 /* Main Content */
@@ -121,23 +129,25 @@ body {
 
 .page-title {
   color: var(--primary-color);
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
   text-align: center;
   position: relative;
+  letter-spacing: -0.5px;
 }
 
 .page-title::after {
   content: '';
   position: absolute;
-  bottom: -0.5rem;
+  bottom: -0.75rem;
   left: 50%;
   transform: translateX(-50%);
-  width: 60px;
-  height: 3px;
+  width: 80px;
+  height: 4px;
   background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
   border-radius: 2px;
+  box-shadow: 0 4px 12px rgba(37,99,235,0.2);
 }
 
 /* Homepage Styles */
@@ -147,17 +157,19 @@ body {
 }
 
 .home-intro h1 {
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: 3.2rem;
+  font-weight: 800;
   color: var(--primary-color);
   margin-bottom: 1rem;
+  letter-spacing: -0.5px;
 }
 
 .home-intro p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: var(--text-light);
   max-width: 600px;
   margin: 0 auto 2rem;
+  line-height: 1.8;
 }
 
 .navigation-cards {
@@ -186,9 +198,10 @@ body {
 
 .nav-card h3 {
   color: var(--secondary-color);
-  font-size: 1.35rem;
-  margin-bottom: 0.75rem;
-  letter-spacing: 0.2px;
+  font-size: 1.45rem;
+  margin-bottom: 0.9rem;
+  letter-spacing: -0.2px;
+  font-weight: 700;
 }
 
 .nav-card p {
@@ -200,17 +213,18 @@ body {
   display: inline-block;
   background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
   color: white;
-  padding: 0.65rem 1.25rem;
+  padding: 0.7rem 1.4rem;
   border-radius: 999px;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 700;
   transition: var(--transition);
-  box-shadow: 0 6px 18px rgba(37,99,235,0.12);
+  box-shadow: 0 8px 20px rgba(37,99,235,0.15);
+  letter-spacing: 0.3px;
 }
 
 .nav-card a:hover {
-  transform: scale(1.05);
-  box-shadow: var(--shadow);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 12px 28px rgba(37,99,235,0.2);
 }
 
 /* CV Page Styles */
@@ -220,22 +234,26 @@ body {
 
 .cv-section h2 {
   color: var(--primary-color);
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid var(--border-color);
-  padding-bottom: 0.5rem;
+  font-size: 1.95rem;
+  margin-bottom: 1.2rem;
+  border-bottom: 3px solid var(--border-color);
+  padding-bottom: 0.75rem;
+  font-weight: 800;
+  letter-spacing: -0.3px;
 }
 
 .cv-section h3 {
   color: var(--secondary-color);
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  margin-bottom: 0.7rem;
+  font-weight: 700;
 }
 
 .cv-section h4 {
   color: var(--text-color);
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
+  font-weight: 600;
 }
 
 .marksheet-table {
@@ -270,24 +288,25 @@ body {
   background: var(--glass-bg);
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
-  padding: 1.6rem;
-  margin-bottom: 1.25rem;
-  border-left: 4px solid rgba(37,99,235,0.12);
+  padding: 1.8rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid rgba(37,99,235,0.15);
   transition: var(--transition);
   border: 1px solid var(--border-color);
   backdrop-filter: blur(4px);
 }
 
 .project-card:hover {
-  transform: translateY(-3px);
-  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(16,24,40,0.1);
 }
 
 .project-title {
-  color: var(--primary-color);
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 0.5rem;
+  color: var(--secondary-color);
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 0.7rem;
+  letter-spacing: -0.2px;
 }
 
 .project-tech {
@@ -322,18 +341,20 @@ body {
 
 .project-links a {
   display: inline-block;
-  padding: 0.5rem 1rem;
-  background: var(--primary-color);
+  padding: 0.6rem 1.2rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
   color: white;
   text-decoration: none;
-  border-radius: var(--border-radius);
+  border-radius: 999px;
   font-size: 0.9rem;
+  font-weight: 700;
   transition: var(--transition);
+  box-shadow: 0 4px 12px rgba(37,99,235,0.1);
 }
 
 .project-links a:hover {
-  background: var(--secondary-color);
-  transform: scale(1.05);
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 8px 20px rgba(37,99,235,0.2);
 }
 
 /* About Page Styles */
@@ -343,14 +364,17 @@ body {
 
 .about-section h2 {
   color: var(--primary-color);
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
+  font-size: 1.95rem;
+  margin-bottom: 1.2rem;
+  font-weight: 800;
+  letter-spacing: -0.3px;
 }
 
 .about-section h3 {
   color: var(--secondary-color);
-  font-size: 1.3rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  margin-bottom: 0.7rem;
+  font-weight: 700;
 }
 
 .skills-grid {
@@ -361,15 +385,18 @@ body {
 }
 
 .skill-category {
-  background: var(--background-light);
-  padding: 1rem;
+  background: var(--glass-bg);
+  padding: 1.2rem;
   border-radius: var(--border-radius);
-  border-left: 3px solid var(--primary-color);
+  border-left: 4px solid rgba(37,99,235,0.15);
+  border: 1px solid var(--border-color);
+  backdrop-filter: blur(3px);
 }
 
 .skill-category h4 {
-  color: var(--primary-color);
-  margin-bottom: 0.5rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.7rem;
+  font-weight: 700;
 }
 
 .contact-info {
@@ -388,11 +415,13 @@ body {
   color: var(--primary-color);
   text-decoration: none;
   transition: var(--transition);
+  font-weight: 600;
 }
 
 .contact-info a:hover {
   color: var(--secondary-color);
   text-decoration: underline;
+  transform: translateX(2px);
 }
 
 /* Contact form */
@@ -444,35 +473,47 @@ body {
   display: inline-block;
   background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
   color: white;
-  padding: 0.7rem 1.6rem;
-  border-radius: var(--border-radius);
+  padding: 0.8rem 1.8rem;
+  border-radius: 999px;
   border: none;
-  font-weight: 600;
+  font-weight: 700;
   cursor: pointer;
   transition: var(--transition);
+  box-shadow: 0 8px 20px rgba(37,99,235,0.15);
+  letter-spacing: 0.3px;
 }
 
 .contact-submit-btn:hover {
-  box-shadow: var(--shadow-lg);
-  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(37,99,235,0.25);
+  transform: translateY(-3px);
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
   .site-title {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
   
   .home-intro h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
   }
   
   .page-title {
-    font-size: 2rem;
+    font-size: 2.2rem;
+  }
+  
+  .page-title::after {
+    width: 60px;
+    height: 3px;
   }
   
   .navigation-cards {
     grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+  
+  .nav-card {
+    padding: 1.5rem;
   }
   
   .site-nav ul {
@@ -480,38 +521,60 @@ body {
   }
   
   .site-nav a {
-    margin: 0.125rem;
+    margin: 0.15rem;
+    padding: 0.75rem 1.2rem;
   }
   
   .project-links {
     flex-direction: column;
   }
   
+  .project-links a {
+    width: 100%;
+    text-align: center;
+  }
+  
   .marksheet-table {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
   
   .marksheet-table th,
   .marksheet-table td {
-    padding: 0.75rem;
+    padding: 0.6rem;
+  }
+  
+  .cv-section h2 {
+    font-size: 1.6rem;
   }
 }
 
 @media (max-width: 480px) {
   .main-content {
-    padding: 0 0.5rem;
+    padding: 0 0.75rem;
   }
   
   .page-content {
-    padding: 1rem;
+    padding: 1.25rem;
   }
   
   .site-title {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   
   .home-intro h1 {
-    font-size: 2rem;
+    font-size: 2.3rem;
+  }
+  
+  .nav-card h3 {
+    font-size: 1.25rem;
+  }
+  
+  .nav-card {
+    padding: 1.25rem;
+  }
+  
+  .project-card {
+    padding: 1.4rem;
   }
 }
 
@@ -917,19 +980,20 @@ body {
 .download-btn {
   display: inline-block;
   background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-  padding: 0.7rem 1.4rem;
-  border-radius: var(--border-radius);
+  padding: 0.8rem 1.6rem;
+  border-radius: 999px;
   color: white;
   text-decoration: none;
-  font-weight: 600;
-  margin-top: 1rem;
-  box-shadow: var(--shadow);
+  font-weight: 700;
+  margin-top: 1.2rem;
+  box-shadow: 0 8px 20px rgba(37,99,235,0.15);
   transition: var(--transition);
+  letter-spacing: 0.3px;
 }
 
 .download-btn:hover {
-  box-shadow: var(--shadow-lg);
-  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(37,99,235,0.25);
+  transform: translateY(-4px);
 }
 
 /* Hero responsive tweaks */
